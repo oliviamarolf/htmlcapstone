@@ -1,0 +1,126 @@
+.stand-for-content {
+  display: grid;
+  grid-template-rows: auto;
+  text-align: center;
+}
+.stand-for-content h2 {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+  color: #3c4858;
+  font-weight: 700;
+  font-size: 37px;
+}
+.stand-for-content .about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  margin-left: 230px;
+  margin-right: 230px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.stand-for-content .about-content h5 {
+  font-size: 16px;
+  margin: 0;
+  margin-top: 12px;
+}
+.stand-for-content .about-content p {
+  color: #999999;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.about-hestia {
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 230px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/henning-witzel-ukvgqriuOgo-unsplash.jpg");
+  background-size: 100% 150%;
+  background-attachment: fixed;
+}
+.about-hestia .about-text {
+  width: 40%;
+  color: white;
+}
+.about-hestia .about-text h2 {
+  font-size: 32px;
+}
+.about-hestia .about-text p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.about-hestia .about-img {
+  width: 50%;
+}
+.about-hestia .about-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-content {
+  display: grid;
+  grid-template-rows: auto;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  text-align: center;
+  padding: 50px 230px;
+}
+.blog-content a {
+  text-decoration: none;
+  color: #323437;
+}
+.blog-content h2 {
+  font-size: 35px;
+}
+.blog-content .blog-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: left;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.blog-content .blog-cards p {
+  color: #999999;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.blog-content .card1 h6 {
+  color: #8c289d;
+}
+.blog-content .card2 h6 {
+  color: #0cbdd5;
+}
+.blog-content .card3 h6 {
+  color: #f44336;
+}
+
+.in-touch-containter {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/henning-witzel-ukvgqriuOgo-unsplash.jpg");
+  background-size: 100% 200%;
+  color: white;
+  padding: 60px 230px;
+}
+.in-touch-containter h2 {
+  font-size: 34px;
+}
+.in-touch-containter .description-text {
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
+}
+.in-touch-containter .description-text .info-horizontal {
+  display: grid;
+  grid-template-columns: 2.5em 1fr;
+}
+.in-touch-containter .description-text .info-horizontal .icon {
+  padding-top: 10px;
+}
+.in-touch-containter .description-text .info-horizontal .icon i {
+  font-size: 34px;
+}
+.in-touch-containter .description-text .info-horizontal .description p {
+  color: #999999;
+  font-size: 12px;
+  line-height: 1.6;
+}/*# sourceMappingURL=mainpage.css.map */

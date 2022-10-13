@@ -1,0 +1,155 @@
+.stand-for-content {
+  display: grid;
+  grid-template-rows: auto;
+  text-align: center;
+
+  h2 {
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    color: #3c4858;
+    font-weight: 700;
+    font-size: 37px;
+  }
+
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    h5 {
+      font-size: 16px;
+      margin: 0;
+      margin-top: 12px;
+    }
+
+    p {
+      color: #999999;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+  }
+}
+
+.about-hestia {
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 230px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/henning-witzel-ukvgqriuOgo-unsplash.jpg");
+  background-size: 100% 150%;
+  background-attachment: fixed;
+
+  .about-text {
+    width: 40%;
+    color: white;
+
+    h2 {
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  }
+
+  .about-img {
+    width: 50%;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.blog-content {
+  display: grid;
+  grid-template-rows: auto;
+  column-gap: 20px;
+  text-align: center;
+  padding: 50px 230px;
+
+  a {
+    text-decoration: none;
+    color: #323437;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .blog-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    column-gap: 30px;
+
+    p {
+      color: #999999;
+      font-size: 11px;
+      line-height: 1.6;
+    }
+  }
+
+  .card1 {
+    h6 {
+      color: #8c289d;
+    }
+  }
+
+  .card2 {
+    h6 {
+      color: #0cbdd5;
+    }
+  }
+
+  .card3 {
+    h6 {
+      color: #f44336;
+    }
+  }
+}
+
+.in-touch-containter {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/henning-witzel-ukvgqriuOgo-unsplash.jpg");
+  background-size: 100% 200%;
+  color: white;
+  padding: 60px 230px;
+
+  h2 {
+    font-size: 34px;
+  }
+
+  .description-text {
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+
+    .info-horizontal {
+      display: grid;
+      grid-template-columns: 2.5em 1fr;
+
+      .icon {
+        padding-top: 10px;
+
+        i {
+          font-size: 34px;
+        }
+      }
+
+      .description {
+        p {
+          color: #999999;
+          font-size: 12px;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+}

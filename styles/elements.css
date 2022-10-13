@@ -1,0 +1,148 @@
+.all-elements-content {
+  display: grid;
+  grid-template-rows: auto;
+  padding: 50px 250px;
+}
+.all-elements-content div {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.all-elements-content a {
+  text-decoration: none;
+  color: #d41872;
+}
+.all-elements-content p {
+  color: #5f6875;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+.all-elements-content .introduction {
+  border-bottom: 1px solid lightgray;
+}
+.all-elements-content .headings-ex {
+  border-bottom: 1px solid lightgray;
+}
+.all-elements-content .headings-ex h1 {
+  font-size: 42px;
+}
+.all-elements-content .headings-ex h2 {
+  font-size: 37px;
+}
+.all-elements-content .headings-ex h3 {
+  font-size: 32px;
+}
+.all-elements-content .headings-ex h4 {
+  font-size: 27px;
+}
+.all-elements-content .headings-ex h5 {
+  font-size: 23px;
+}
+.all-elements-content .headings-ex h6 {
+  font-size: 18px;
+}
+.all-elements-content .paragraph-ex {
+  border-bottom: 1px solid lightgray;
+}
+.all-elements-content .lists-ex {
+  border-bottom: 1px solid lightgray;
+}
+.all-elements-content .lists-ex dd,
+.all-elements-content .lists-ex li {
+  color: #5f6875;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+.all-elements-content .forms-ex {
+  border-bottom: 1px solid lightgray;
+}
+.all-elements-content .forms-ex h2 {
+  line-height: 1.6;
+  font-weight: 300;
+  color: #5f6875;
+}
+.all-elements-content .forms-ex form p {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.all-elements-content .forms-ex input,
+.all-elements-content .forms-ex label {
+  color: #5f6875;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+.all-elements-content .forms-ex input[type=text] {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  height: 40px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.all-elements-content .forms-ex select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 5px;
+  outline: 0.5px solid black;
+  height: 45px;
+  width: 100px;
+  color: #5f6875;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.all-elements-content .file-ex {
+  border-bottom: 1px solid lightgray;
+}
+.all-elements-content .file-ex form {
+  margin-bottom: 35px;
+}
+.all-elements-content .file-ex button {
+  margin-top: 20px;
+  height: 40px;
+  width: 90px;
+}
+.all-elements-content .file-ex .clear-btn {
+  box-shadow: 0 4px 12px -2px #e91e63;
+}
+.all-elements-content .file-ex .sbmt-btn {
+  margin: 20px 0;
+  border: none;
+  border-radius: 3px;
+  background-color: #e91e63;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 10px;
+  cursor: pointer;
+}
+.all-elements-content .tables-ex table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.all-elements-content .tables-ex tr {
+  border-bottom: 1pt solid lightgray;
+}
+.all-elements-content .tables-ex th {
+  padding-bottom: 14px;
+}
+.all-elements-content .tables-ex td {
+  padding: 14px 16px;
+}
+.all-elements-content .misc p {
+  color: #5f6875;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+.all-elements-content .misc blockquote {
+  font-size: 18px;
+  font-style: italic;
+  border-left: 5px solid #eee;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+}/*# sourceMappingURL=elements.css.map */

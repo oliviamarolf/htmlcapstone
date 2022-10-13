@@ -1,0 +1,22 @@
+.thousand-content {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 30px;
+  padding: 50px 330px;
+}
+.thousand-content .post-content {
+  width: 50vw;
+}
+.thousand-content .post-content p {
+  font-size: 12px;
+  font-weight: bold;
+  align-self: center;
+  margin-left: 200px;
+}
+.thousand-content .post-content img {
+  width: 435px;
+  height: auto;
+}
+.thousand-content .post-caption p {
+  font-weight: 300;
+}/*# sourceMappingURL=thousand.css.map */
